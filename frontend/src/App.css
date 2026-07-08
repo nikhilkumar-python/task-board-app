@@ -1,0 +1,160 @@
+/* General Page */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f6f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main Container */
+
+.container {
+    width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+/* Heading */
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Input & Select */
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Add Button */
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: royalblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #003ecb;
+}
+
+/* Divider */
+
+hr {
+    margin: 25px 0;
+}
+
+/* Task Card */
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: #f8f8f8;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+/* Checkbox */
+
+.task input[type="checkbox"] {
+    transform: scale(1.3);
+}
+
+/* Task Title */
+
+.task span:first-of-type {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+/* Completed Task */
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Priority Badge */
+
+.priority {
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Priority Colors */
+
+.high {
+    background: #e74c3c;
+}
+
+.medium {
+    background: #f39c12;
+}
+
+.low {
+    background: #27ae60;
+}
+
+/* Delete Button */
+
+.task button {
+    width: auto;
+    background: crimson;
+    padding: 8px 14px;
+    margin: 0;
+}
+
+.task button:hover {
+    background: darkred;
+}
+
+/* Progress Bar */
+
+.progress {
+    width: 100%;
+    height: 20px;
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.fill {
+    height: 100%;
+    background: #2ecc71;
+    transition: width 0.3s ease;
+}
+
+/* Progress Text */
+
+h3 {
+    text-align: center;
+    color: #333;
+}
