@@ -23,6 +23,10 @@ def save_tasks(tasks):
 def home():
     return "Task Board API Running"
 
+@app.route("/test")
+def test():
+    return "Backend Updated Successfully!"
+
 @app.route("/tasks", methods=["GET"])
 def get_tasks():
     tasks = load_tasks()
