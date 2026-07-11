@@ -8,8 +8,6 @@ A full-stack Task Board application built with **React** and **Flask** that allo
 
 🔗 https://task-board-app-nu.vercel.app
 
-🔗 https://task-board-app-m5jq.onrender.com
-
 ---
 
 ## 📸 Screenshots
