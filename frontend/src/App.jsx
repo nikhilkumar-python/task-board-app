@@ -13,7 +13,7 @@ function App() {
 
   // Get all tasks
   const fetchTasks = async () => {
-    const response = await fetch("https://task-board-backend.onrender.com/tasks");
+    const response = await fetch("https://task-board-app-m5jq.onrender.com/tasks");
     const data = await response.json();
     setTasks(data);
   };
@@ -25,7 +25,7 @@ function App() {
       return;
     }
 
-    await fetch("https://task-board-backend.onrender.com/tasks", {
+    await fetch("https://task-board-app-m5jq.onrender.com/tasks", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -43,7 +43,7 @@ function App() {
 
   // Toggle complete
   const toggleTask = async (id) => {
-    await fetch(`https://task-board-backend.onrender.com/tasks/${id}`, {
+    await fetch(`https://task-board-app-m5jq.onrender.com/tasks/${id}`, {
       method: "PUT",
     });
 
@@ -52,7 +52,7 @@ function App() {
 
   // Delete task
   const deleteTask = async (id) => {
-    await fetch(`https://task-board-backend.onrender.com/tasks/${id}`, {
+    await fetch(`https://task-board-app-m5jq.onrender.com/tasks/${id}`, {
       method: "DELETE",
     });
 
