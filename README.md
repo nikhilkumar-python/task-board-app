@@ -6,9 +6,9 @@ A full-stack Task Board application built with **React** and **Flask** that allo
 
 ## 🚀 Live Demo
 
-🔗 Frontend: *Coming Soon*
+🔗 task-board-app-nu.vercel.app
 
-🔗 Backend API: *Coming Soon*
+🔗 https://task-board-app-m5jq.onrender.com
 
 ---
 
@@ -16,7 +16,8 @@ A full-stack Task Board application built with **React** and **Flask** that allo
 
 ### Home Page
 
-> Add a screenshot here after deployment.
+> <img width="1920" height="1080" alt="{002F9071-6128-4958-A01C-67B72F2AFBF5}" src="https://github.com/user-attachments/assets/6d81f6a7-f6be-4959-8c34-7ef3d4fbbc48" />
+
 
 ```
 /screenshots/home.png
